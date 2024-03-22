@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav {
+   font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: transparent;
+    height: 80px;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.brand img{
+    height: 70px;
+    width: 80px;
+    padding: 0 8px;
+    mix-blend-mode: multiply;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+}
+
+
+.container{
+    min-height: 72vh;
+    background-color:transparent;
+    color: black;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    
+    
+   
+}
+nav ul li{
+    padding: 0 12px;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    
+
+}
+.icons{
+    margin-top: 34px;
+}
+.icons i{
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 40px;
+    justify-content: space-between;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItemContainer{
+    margin-top: 34px;
+}
+.songItem img{
+    width: 43px;
+    height: 40px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round',sans-serif;
+    margin-inline: 5px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin-left: 380px;
+    margin-top: -4px;
+}
+/*Now we are going to provide some styling for the about page of the playlist*/
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+    color: #666;
+}
+.img1{
+    background-image: url("images/image-24.jpg");
+    min-height: 100%;
+    
+    
+}
+.img2{
+    background-image: url("images/image-3.jpg");
+    min-height: 700px;
+    
+    
+}
+.img3{
+    background-image: url("images/image-6.jpg");
+    min-height: 1000px;
+    
+    
+}
+.img4{
+    background-image: url("images/image-7.jpg");
+    min-height: 800px;
+    
+    
+}
+.img5{
+    background-image: url("images/image-10.jpg");
+    min-height: 600px;
+    
+    
+}
+.img6{
+    background-image: url("images/image-11.jpg");
+    min-height: 100%;
+    
+    
+}
+.img7{
+    background-image: url("images/image-13.jpg");
+    min-height: 900px;
+    
+    
+}
+.img8{
+    background-image: url("images/image-22.jpg");
+    min-height: 800px;
+    
+    
+}
+.img9{
+    background-image: url("images/image-17.jpg");
+    min-height: 600px;
+    
+    
+}
+.img10{
+    background-image: url("images/image-20.jpg");
+    min-height: 600px;
+    
+    
+}
+.img11{
+    background-image: url("images/image-21.jpg");
+    min-height: 600px;
+    
+    
+}
+.img12{
+    background-image: url("images/image-23.jpg");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.img1,.img2,.img3,.img4,.img5,.img6,
+.img7,.img8,.img9,.img10,.img11,.img-12{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.ptext{
+    /*position: absolute;
+    top: 58%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 8px;
+    text-transform: uppercase;*/
+    position: absolute;
+    top: 50%; /* Adjusted to center vertically */
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    transform: translateY(-50%); /* Added to center vertically */
+   
+}
+
+.content1{
+    padding: 50px 80px;
+    text-align: justify;
+    
+}
+
+
+.content1-light{
+     background-color: rgba(0, 0, 0, 0.714);
+     color: white;
+}
+
+
+
+/*Now we have to do responsive our website such that it is accesssible for all screens.*/
+@media(max-width:460px){
+    .ptext{
+    position: absolute;
+    top: 58%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    }
+    .content1{
+        text-align: justify; 
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .brand {
+        margin-bottom: 10px; /* Example margin bottom for spacing */
+    }
+
+    ul li {
+        margin-bottom: 5px; /* Example margin bottom for spacing */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        height: auto;
+    }
+    
+    .brand img {
+        height: 50px;
+        width: 60px;
+    }
+    
+    .brand {
+        font-size: 20px;
+    }
+    
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .songItem img {
+        width: 30px;
+        height: 30px;
+    }
+    .bottom {
+        height: auto; /* Allow the height to adjust based on content */
+        width: 100%; /* Add padding to create space between elements */
+    }
+    .icons {
+        margin-top: 20px; /* Adjust margin-top for smaller screens */
+    }
+
+    .icons i {
+        margin-top: 15px; /* Adjust margin-top for smaller screens */
+        font-size: 30px; /* Decrease font size for smaller screens */
+    }
+
+    .songInfo {
+        position: static; /* Reset position to static for smaller screens */
+        left: auto; /* Reset left for smaller screens */
+        text-align: center; /* Center align for smaller screens */
+    }
+
+    .songInfo img {
+        margin-left: 0; /* Reset margin-left for smaller screens */
+    }
+    .songInfo img b {
+        margin-top: 20px; /* Reset margin-left for smaller screens */
+    }
+}
+
